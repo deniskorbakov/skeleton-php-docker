@@ -1,0 +1,48 @@
+{
+    "name": "deniskorbakov/skeleton-php-docker",
+    "description": "A skeleton php libs with docker",
+    "keywords": ["php", "skeleton", "package", "docker"],
+    "type": "libarary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Korbakov",
+            "email": "korbakovd@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DenisKorbakov\\SkeletonPhpDocker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "tests": "php ./vendor/bin/pest",
+        "cs-check": [
+            "@phpstan",
+            "@cs",
+            "@rector"
+        ],
+        "phpstan": "phpstan analyse --memory-limit=2G",
+        "rector": "rector",
+        "cs": "phpcs"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.8",
+        "phpstan/phpstan": "^2.1",
+        "rector/rector": "*",
+        "squizlabs/php_codesniffer": "^3.13",
+        "slevomat/coding-standard": "^8.20"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
