@@ -1,4 +1,4 @@
-name: DEPLOY AND BUILD
+name: CODE CHECK - TESTS
 
 on: ['push', 'pull_request']
 
