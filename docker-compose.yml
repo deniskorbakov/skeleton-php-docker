@@ -3,7 +3,7 @@ services:
   app:
     container_name: scribe-plugin
     build:
-      context: ./
+      context: .docker
     volumes:
       - ./:/app
     tty: true
