@@ -9,18 +9,22 @@ up:
 build:
 	docker compose up -d --build
 
-# command for exec in container
+# command for exec in app container
 exec:
 	docker exec -it scribe-plugin /bin/sh
 
-# command for install pkg
+# command for install composer
 install:
 	docker exec -i scribe-plugin composer install --dev
 
-# command for run verify code
-code-check:
-	docker exec -i scribe-plugin composer cs-check
+# command for run lint code
+lint:
+	docker exec -i scribe-plugin composer lint
 
 # command for run tests
 test:
+	docker exec -i scribe-plugin composer tests
+
+# command for run tests coverage
+test-coverage:
 	docker exec -i scribe-plugin composer tests
