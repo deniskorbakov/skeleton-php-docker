@@ -2,7 +2,8 @@
 
 This repository is designed to give you a template with which you can create your own packages.
 
-<a href="https://github.com/deniskorbakov/skeleton-php-docker"><img alt="GitHub Workflow Status" src="https://github.com/deniskorbakov/skeleton-php-docker/actions/workflows/code-standart.yml/badge.svg"></a>
+<a href="https://github.com/deniskorbakov/skeleton-php-docker"><img alt="GitHub Workflow Status" src="https://github.com/deniskorbakov/skeleton-php-docker/actions/workflows/lint.yml/badge.svg"></a>
+<a href="https://github.com/deniskorbakov/skeleton-php-docker"><img alt="GitHub Workflow Status" src="https://github.com/deniskorbakov/skeleton-php-docker/actions/workflows/tests.yml/badge.svg"></a>
 <a href="https://packagist.org/packages/deniskorbakov/skeleton-php-docker"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/deniskorbakov/skeleton-php-docker"></a>
 <a href="https://packagist.org/packages/deniskorbakov/skeleton-php-docker"><img alt="Latest Version" src="https://img.shields.io/packagist/v/deniskorbakov/skeleton-php-docker"></a>
 <a href="https://packagist.org/packages/deniskorbakov/skeleton-php-docker"><img alt="License" src="https://img.shields.io/packagist/l/deniskorbakov/skeleton-php-docker"></a>
