@@ -32,9 +32,12 @@ make init
 ## What do you get
 
 * Ready-made template project using the latest version of PHP
-* Tests using pest
+* Tests/Test Coverage using pest
 * Static analyzers: phpstan/rector/phpcs
 * Ready-made environment using docker
+* Xdebug mod
+* GitHub actions for lint/tests
+* Issue Template for bug/question
 
 
 I would be glad to receive your **feedback**
