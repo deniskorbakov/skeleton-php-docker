@@ -32,7 +32,7 @@ make init
 ## What do you get
 
 * Ready-made template project using the latest version of PHP
-* Tests/Test Coverage using pest
+* Tests: Unit/Coverage/Mutation/Architectural using pest
 * Static analyzers: phpstan/rector/phpcs
 * Ready-made environment using docker
 * Xdebug mod
