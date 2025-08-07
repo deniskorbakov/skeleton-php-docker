@@ -34,4 +34,4 @@ jobs:
         run: composer tests-coverage
 
       - name: Test coverage
-        run: composer test-mutation
+        run: composer tests-mutation
