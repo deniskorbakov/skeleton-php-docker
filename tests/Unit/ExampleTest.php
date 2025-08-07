@@ -5,9 +5,8 @@ declare(strict_types=1);
 namespace Tests\Unit;
 
 use DenisKorbakov\SkeletonPhpDocker\Example;
-use Tests\TestCase;
 
-uses(TestCase::class);
+mutates(Example::class);
 
 test('foo', function (): void {
     $example = new Example();
