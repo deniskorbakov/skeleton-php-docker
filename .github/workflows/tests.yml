@@ -32,3 +32,6 @@ jobs:
 
       - name: Test coverage
         run: composer tests-coverage
+
+      - name: Test coverage
+        run: composer test-mutation
