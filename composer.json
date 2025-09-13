@@ -2,7 +2,7 @@
     "name": "deniskorbakov/skeleton-php-docker",
     "description": "A skeleton php libs with docker",
     "keywords": ["php", "skeleton", "package", "docker"],
-    "type": "libarary",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
