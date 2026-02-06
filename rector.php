@@ -10,7 +10,6 @@ use Rector\CodeQuality\Rector\Ternary\SwitchNegatedTernaryRector;
 use Rector\CodingStyle\Rector\ClassMethod\NewlineBeforeNewAssignSetRector;
 use Rector\CodingStyle\Rector\Encapsed\EncapsedStringsToSprintfRector;
 use Rector\CodingStyle\Rector\PostInc\PostIncDecToPreIncDecRector;
-use Rector\CodingStyle\Rector\String_\SymplifyQuoteEscapeRector;
 use Rector\Config\RectorConfig;
 use Rector\DeadCode\Rector\ClassMethod\RemoveEmptyClassMethodRector;
 use Rector\DeadCode\Rector\ClassMethod\RemoveUnusedPrivateMethodRector;
@@ -51,7 +50,6 @@ return static function (RectorConfig $rectorConfig): void {
         NewlineBeforeNewAssignSetRector::class,
         EncapsedStringsToSprintfRector::class,
         PostIncDecToPreIncDecRector::class,
-        SymplifyQuoteEscapeRector::class,
         RemoveUnusedPromotedPropertyRector::class,
         RemoveUnusedPrivateMethodRector::class,
         RemoveUnusedPrivatePropertyRector::class,
